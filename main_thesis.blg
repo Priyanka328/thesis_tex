@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main_thesis.aux
+A level-1 auxiliary file: tex/_title.aux
+A level-1 auxiliary file: tex/_declaration.aux
+A level-1 auxiliary file: tex/_abstract.aux
+A level-1 auxiliary file: tex/_acknowledgments.aux
+A level-1 auxiliary file: tex/chapter1.aux
+A level-1 auxiliary file: tex/chapter2.aux
+A level-1 auxiliary file: tex/chapter3.aux
+A level-1 auxiliary file: tex/chapter4.aux
+A level-1 auxiliary file: tex/chapter5.aux
+A level-1 auxiliary file: tex/chapter6.aux
+A level-1 auxiliary file: tex/chapter7.aux
+A level-1 auxiliary file: tex/_appendix.aux
+The style file: unsrtnat.bst
+Database file #1: tex/_bibfile.bib
+Warning--empty year in indexcfm14:online
+Warning--empty year in Arcadis38:online
+Warning--empty year in Teleoper41:online
+Warning--empty year in RTLSReal19:online
+Warning--empty year in ARTERRob17:online
+You've used 6 entries,
+            2481 wiz_defined-function locations,
+            593 strings with 5811 characters,
+and the built_in function-call counts, 1885 in all, are:
+= -- 156
+> -- 75
+< -- 1
++ -- 36
+- -- 24
+* -- 124
+:= -- 249
+add.period$ -- 19
+call.type$ -- 6
+change.case$ -- 12
+chr.to.int$ -- 6
+cite$ -- 16
+duplicate$ -- 98
+empty$ -- 204
+format.name$ -- 25
+if$ -- 425
+int.to.chr$ -- 1
+int.to.str$ -- 7
+missing$ -- 1
+newline$ -- 39
+num.names$ -- 3
+pop$ -- 88
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 63
+stack$ -- 0
+substring$ -- 49
+swap$ -- 21
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 42
+warning$ -- 5
+while$ -- 5
+width$ -- 0
+write$ -- 77
+(There were 5 warnings)

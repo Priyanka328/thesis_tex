@@ -1,0 +1,82 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Related Work}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Traditional Legged Locomotion Planning}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Trajectory Optimization}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Crocoddyl Framework}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{RH5 Humanoid Robot}{section.1.2}% 7
+\BOOKMARK [1][-]{section.1.3}{Contributions}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{Structure}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Mathematical Background: Optimal Bipedal Locomotion}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Foundations of Bipedal Locomotion}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{Terminology}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{Dynamic Modeling of Legged Robots}{section.2.1}% 13
+\BOOKMARK [1][-]{section.2.2}{Stability Analysis: Not Falling Down}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{Static Stability Criteria}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{Dynamic Stability Criteria}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.3}{Stability Classification}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{Differential Dynamic Programming \(DDP\)}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.3.1}{Finite Horizon Optimal Control}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.2}{Local Dynamic Programming}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.3}{Quadratic Approximation}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.4}{Algorithmic Steps}{section.2.3}% 22
+\BOOKMARK [1][-]{section.2.4}{Handling Constraints With DDP}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.4.1}{DDP With Constrained Robot Dynamics}{section.2.4}% 24
+\BOOKMARK [2][-]{subsection.2.4.2}{KKT-Based DDP Algorithm}{section.2.4}% 25
+\BOOKMARK [2][-]{subsection.2.4.3}{Task-Related Constraints}{section.2.4}% 26
+\BOOKMARK [2][-]{subsection.2.4.4}{Inequality Constraints}{section.2.4}% 27
+\BOOKMARK [0][-]{chapter.3}{Contact Stability Constrained DDP}{}% 28
+\BOOKMARK [1][-]{section.3.1}{The Idea}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.2}{Center of Pressure \(CoP\) Constraints}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.2.1}{CoP Stability Conditions}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.2}{CoP Computation}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.3}{CoP Inequality Constraints}{section.3.2}% 33
+\BOOKMARK [1][-]{section.3.3}{Integration Into the Crocoddyl Framework}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.1}{Inequality Constraints by Penalization}{section.3.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.2}{Computation of Residual and Cost}{section.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.3}{Basic Usage and Contributions}{section.3.3}% 37
+\BOOKMARK [0][-]{chapter.4}{Bipedal Walking Variants}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Formulation of the Optimization Problem}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.1.1}{Contact and Impact Modeling}{section.4.1}% 40
+\BOOKMARK [2][-]{subsection.4.1.2}{Robot Tasks}{section.4.1}% 41
+\BOOKMARK [2][-]{subsection.4.1.3}{Inequality Constraints for Physical Consistency}{section.4.1}% 42
+\BOOKMARK [2][-]{subsection.4.1.4}{Further Regularization Terms}{section.4.1}% 43
+\BOOKMARK [1][-]{section.4.2}{Simulation Results for Increasing Gait Dynamics}{chapter.4}% 44
+\BOOKMARK [2][-]{subsection.4.2.1}{Static Walking}{section.4.2}% 45
+\BOOKMARK [2][-]{subsection.4.2.2}{Dynamic Walking}{section.4.2}% 46
+\BOOKMARK [1][-]{section.4.3}{Evaluation of Contact Stability}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.3.1}{Dynamically Balanced Walking Motion}{section.4.3}% 48
+\BOOKMARK [2][-]{subsection.4.3.2}{Different Levels of CoP Restriction}{section.4.3}% 49
+\BOOKMARK [0][-]{chapter.5}{Highly-Dynamic Movements}{}% 50
+\BOOKMARK [1][-]{section.5.1}{Formulation of the Optimization Problem}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.2}{Simulation Results for Increasing Task Complexity}{chapter.5}% 52
+\BOOKMARK [2][-]{subsection.5.2.1}{A Simple Vertical Jump}{section.5.2}% 53
+\BOOKMARK [2][-]{subsection.5.2.2}{A Simple Forward Jump}{section.5.2}% 54
+\BOOKMARK [2][-]{subsection.5.2.3}{Forward Jumping Over Multiple Obstacles}{section.5.2}% 55
+\BOOKMARK [1][-]{section.5.3}{Evaluation of the System Design}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.3.1}{Design Guidelines derived from Vertical Jumping}{section.5.3}% 57
+\BOOKMARK [2][-]{subsection.5.3.2}{Design Guidelines derived from Forward Jumping}{section.5.3}% 58
+\BOOKMARK [0][-]{chapter.6}{Validation of Planned Motions}{}% 59
+\BOOKMARK [1][-]{section.6.1}{Validation in Real-Time Physics Simulation}{chapter.6}% 60
+\BOOKMARK [2][-]{subsection.6.1.1}{Simulation Setup}{section.6.1}% 61
+\BOOKMARK [2][-]{subsection.6.1.2}{Results}{section.6.1}% 62
+\BOOKMARK [1][-]{section.6.2}{Validation in Real-World Experiments}{chapter.6}% 63
+\BOOKMARK [2][-]{subsection.6.2.1}{Pipeline}{section.6.2}% 64
+\BOOKMARK [2][-]{subsection.6.2.2}{Experiments}{section.6.2}% 65
+\BOOKMARK [2][-]{subsection.6.2.3}{Discussion}{section.6.2}% 66
+\BOOKMARK [0][-]{chapter.7}{Conclusion and Outlook}{}% 67
+\BOOKMARK [1][-]{section.7.1}{Thesis Summary}{chapter.7}% 68
+\BOOKMARK [1][-]{section.7.2}{Future Directions}{chapter.7}% 69
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 70
+\BOOKMARK [1][-]{section.A.1}{CoP Cost Implementation for Contact Dynamics}{appendix.A}% 71
+\BOOKMARK [2][-]{subsection.A.1.1}{contact-cop-position.hpp}{section.A.1}% 72
+\BOOKMARK [2][-]{subsection.A.1.2}{contact-cop-position.hxx}{section.A.1}% 73
+\BOOKMARK [1][-]{section.A.2}{CoP Cost Implementation for Impulse Dynamics}{appendix.A}% 74
+\BOOKMARK [2][-]{subsection.A.2.1}{impulse-cop-position.hpp}{section.A.2}% 75
+\BOOKMARK [2][-]{subsection.A.2.2}{impulse-cop-position.hxx}{section.A.2}% 76
+\BOOKMARK [1][-]{section.A.3}{Consistency Between the Frameworks}{appendix.A}% 77
+\BOOKMARK [2][-]{subsection.A.3.1}{Inverse Kinematics}{section.A.3}% 78
+\BOOKMARK [2][-]{subsection.A.3.2}{Inverse Dynamics}{section.A.3}% 79
+\BOOKMARK [0][-]{figure.caption.85}{List of Figures}{}% 80
+\BOOKMARK [0][-]{figure.caption.85}{List of Tables}{}% 81
+\BOOKMARK [0][-]{chapter*.86}{Bibliography}{}% 82

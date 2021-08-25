@@ -1,0 +1,48 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Petereit et~al.(2019)Petereit, Beyerer, Asfour, Gentes, Hein,
+  Hanebeck, Kirchner, Dillmann, Gotting, Weiser, Gustmann, and
+  Egloffstein]{Petereit2019}
+Janko Petereit, Jurgen Beyerer, Tamim Asfour, Sascha Gentes, Bjorn Hein, Uwe~D.
+  Hanebeck, Frank Kirchner, Rudiger Dillmann, Hans~Heinrich Gotting, Martin
+  Weiser, Michael Gustmann, and Thomas Egloffstein.
+\newblock {ROBDEKON: Robotic Systems for Decontamination in Hazardous
+  Environments}.
+\newblock \emph{2019 IEEE International Symposium on Safety, Security, and
+  Rescue Robotics, SSRR 2019}, pages 249--255, 2019.
+\newblock \doi{10.1109/SSRR.2019.8848969}.
+
+\bibitem[ind()]{indexcfm14:online}
+index.cfm.
+\newblock
+  \url{https://www.smdk.ch/index.cfm?action=act_getfile&doc_id=102389&spr=de}.
+\newblock (Accessed on 08/23/2021).
+
+\bibitem[Arc()]{Arcadis38:online}
+Arcadis.
+\newblock \url{https://www.arcadis.com/}.
+\newblock (Accessed on 08/24/2021).
+
+\bibitem[Tel()]{Teleoper41:online}
+Teleoperation lab at dfki | robdekon.
+\newblock \url{https://robdekon.de/en/research/labs/teleoperation-lab-at-dfki}.
+\newblock (Accessed on 08/24/2021).
+
+\bibitem[RTL()]{RTLSReal19:online}
+Rtls-real\_time\_localization\_system\_en.pdf.
+\newblock
+  \url{file:///home/priyanka/Documents/thesis%20paper/RTLS-Real_Time_Localization_System_EN.pdf}.
+\newblock (Accessed on 08/24/2021).
+
+\bibitem[ART()]{ARTERRob17:online}
+Arter - robot systems - robotics innovation center - dfki gmbh.
+\newblock
+  \url{https://robotik.dfki-bremen.de/en/research/robot-systems/arter/}.
+\newblock (Accessed on 08/24/2021).
+
+\end{thebibliography}
